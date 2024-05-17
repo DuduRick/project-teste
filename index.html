@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de teste</title>
+</head>
+<body>
+    <h1>Pedido pizza</h1>
+
+    <form>
+        <p>
+            <label for="iname">Nome:</label>
+            <input type="text" name="name" id="iname" required >
+        </p>
+
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" required>
+        </p>
+
+        <p>
+            <span>Tamanho:</span>
+
+            <input type="radio" name="tamanho" id="ibig">
+            <label for="ibig">Grande</label>
+
+            <input type="radio" name="tamanho" id="imedio" checked>
+            <label for="imedio">Médio</label>
+
+            <input type="radio" name="tamanho" id="ismall">
+            <label for="ismall">Pequeno</label>
+        </p>
+
+        <p>
+            <span>Sabor:</span>
+
+            <select name="sabor" id="isabor">
+
+                <option>Calabresa</option>
+                <option>Siciliana</option>
+                <option>Queijo</option>
+            </select>
+        </p>
+
+        <p>
+            <span>Adcionais:</span>
+
+            <input type="checkbox" name="borda" id="iborda">
+            <label for="iborda">Borda</label>
+
+            <input type="checkbox" name="qe" id="iqe">
+            <label for="iqe">Queijo Extra</label>
+        </p>
+
+        <p>
+            <span>Data Entrega: </span>
+            <input type="date" name="" id="">
+        </p>
+
+        <p>
+            <span>Comentário: </span>
+
+            <textarea name="msg" id="imsg" cols="50" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
